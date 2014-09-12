@@ -13,12 +13,12 @@ Tell me your best practice!!!
 
 Project that I  publishing now the following two  
 
-### 1.SVNTest ### 
+### 1.SVNTest ###
 ---------
 -> This is SVNKit API's usage.  
 I get commit comment via SVNKit.  
 
-### 2.Recursivive ### 
+### 2.Recursivive ###
 -------------
 -> This is Excel VBA tool template.  
 I planned AOP lifecycle for VBA.  
