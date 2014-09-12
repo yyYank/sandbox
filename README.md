@@ -1,4 +1,4 @@
-yank
+yank personal project
 ======================
 
 Hi.
@@ -18,7 +18,7 @@ Project that I  publishing now the following two
 -> This is SVNKit API's usage.  
 I get commit comment via SVNKit.  
 
-### 2,Recursivive ### 
+### 2.Recursivive ### 
 -------------
 -> This is Excel VBA tool template.  
 I planned AOP lifecycle for VBA.  
