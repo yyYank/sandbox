@@ -1,5 +1,5 @@
 fun runs(a: IntArray): Int {
-  return a.answer({(i: Int): Boolean -> i < a.size && a.get(i) != a.get(i + 1) })
+  return a.answer({(i: Int): Boolean -> i + 1 < a.size && a.get(i) != a.get(i + 1) })
 }
  
 fun IntArray.answer(filter: (i: Int) -> Boolean): Int {
