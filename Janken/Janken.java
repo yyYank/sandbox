@@ -93,7 +93,7 @@ public class Janken {
             System.out.println("もう1回？");
             System.out.println("続けるなら何か入力してEnterを押してね！やめるならEnterのみ押してね！");
  
-            String inputText = in.readLine();
+            String inputText = br.readLine();
             return !inputText.isEmpty();
     }
  
@@ -118,7 +118,7 @@ public class Janken {
             System.out.println("3 パー");
             System.out.print("1〜3の数字を打ち込んでEnter押してね！⇛");
  
-            int inputNum = Integer.parseInt(in.readLine());
+            int inputNum = Integer.parseInt(br.readLine());
             // 変数宣言はJavaでは実行される直前で行うらしい
             String userShape = transferNum(inputNum);
             String cpuShape = transferNum(randomShapeKey());
