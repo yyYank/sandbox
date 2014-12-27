@@ -24,4 +24,16 @@ I get commit comment via SVNKit.
 I planned AOP lifecycle for VBA.  
 As a result,Programmer only thinking about logic by this VBA code.  
 
+### 3.Kotlin ###
+-------------
+-> Kotlin is my favorite JVM language(type-safe language).
+This is various Kotlin Sample.
+
+### 4.Janken ###
+-------------
+-> it means 'Scissors Paper Stone' or 'Rock-paper-scissors'.
+Japanese calls 'Janken'.
+This is 'Janken' sample program.
+
+
 (I'm not good at English)
