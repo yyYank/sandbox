@@ -41,12 +41,13 @@ public class Janken {
         put(3, ROCK);
     }};
 
-    class HogeHogeException extends RuntimeException{
-        HogeHogeException() {
+    // ありがちにシステム例外クラスを作ってみる
+    class JankenSystemException extends RuntimeException{
+        JankenSystemException() {
             super();
         }
         
-        HogeHogeException(String message) {
+        JankenSystemException(String message) {
             super(message);
         }
     }
@@ -61,7 +62,7 @@ public class Janken {
         try {
             Janken janken = new Janken();
             janken.start();
-        } catch (HogeHogeException e) {
+        } catch (JankenSystemException e) {
             System.err.println("エラーや！");
         } catch (NumberFormatException | NullPointerException e) {
             System.err.println("1か2か3だけを入れてね！！！");
@@ -142,7 +143,7 @@ public class Janken {
             } 
        // チェック例外はcatchして任意の例外にして再throwするのが良いと思われる
        } catch(IOException e) {
-           throw new HogeHogeException(e.getMessage());
+           throw new JankenSystemException(e.getMessage());
        }
    }
 }
