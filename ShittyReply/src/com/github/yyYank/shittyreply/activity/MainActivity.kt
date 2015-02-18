@@ -1,14 +1,14 @@
-package com.github.yyYank.activity;
+package com.github.yyYank.activity
 
-import android.app.Activity;
-import android.os.Bundle;
+import android.app.Activity
+import android.os.Bundle
 
 class MainActivity () : Activity() {
     /**
      * Called when the activity is first created.
      */
     override fun onCreate(savedInstanceState : Bundle) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.main)
     }
 }
