@@ -25,7 +25,7 @@ sbt
 ## conscript/giter8??
 
 
-*conscript
+* conscript
 
 GitHubにて公開されてる。
 
