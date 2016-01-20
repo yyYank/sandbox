@@ -32,6 +32,28 @@ http://www.scala-lang.org/api/current/index.html#scala.util.Either
      }
 
 
+    A common use of Either is as an alternative to scala.Option for dealing with possible missing values.
+    
+Option型のようにmissing valueを扱う時にEitherは使われると。たぶん。
+
+    In this usage, scala.None is replaced with a scala.util.Left which can contain useful information. 
+
+Noneの代わりがLeftになりますと。
+
+    scala.util.Right takes the place of scala.Some.
+
+RightがSomeです。と。
+
+
+つまり
+
+Either = Option
+Left = None
+Right = Some
+みたいになるよと言っているぽい。
+
+
+
 ## FutureとEitherの組み合わせはplayとか由来なのかな
 
 などと適当なことを言ってみます。
@@ -54,3 +76,40 @@ http://blog.shibayu36.org/entry/2015/08/31/103000
 
 
 ## とりあえずREPLさわってみよう
+
+
+
+    scala> val either : Either[String, Int] = Right(3)
+    either: Either[String,Int] = Right(3)
+
+
+    scala> either.right
+    res9: scala.util.Either.RightProjection[String,Int] = RightProjection(Right(3))
+
+
+    scala> either.left
+    res10: scala.util.Either.LeftProjection[String,Int] = LeftProjection(Right(3))
+
+
+ふむ、、、よくわからんがleftとrightの参照はProjectionという型の継承クラスを返す感じかな。
+じゃなかった。Productというtraitを継承している。
+
+http://www.scala-lang.org/api/current/index.html#scala.util.Either$$LeftProjection
+
+
+関係性を調べたいなぁ。
+
+either.right、either.leftの戻り値のProjectionはOptionのように扱える。getOrElseとかね。
+
+
+    scala> either.right.
+    asInstanceOf   exists    foreach        map               productPrefix   
+    canEqual       filter    get            productArity      toOption        
+    copy           flatMap   getOrElse      productElement    toSeq           
+    e              forall    isInstanceOf   productIterator   toString 
+    
+ 
+いろいろmapなりfilterなりできる。
+
+
+
