@@ -60,3 +60,11 @@ match式であれこれするのね。よく見るやつだ。
 
 
 
+## 結局は
+
+ひしだまさんのサイトにたどりついてしまう。
+
+http://www.ne.jp/asahi/hishidama/home/tech/scala/option.html
+
+知りたいことが書かれすぎている。。
+
