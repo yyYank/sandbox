@@ -29,5 +29,21 @@ match式であれこれするのね。よく見るやつだ。
 
 ## コード
 
-あとで書く。
+    scala> val a = if(true){Some("a") }else{None}
+    a:Option[String] = Some(a)
+
+
+    scala> val b = Some("b")
+    b: Some[String] = Some(b)
+
+
+    scala> val c = None
+    c: None.type = None
+  
+
+ふむ。Optionはこうやって出来るらしい。
+こうやってみるとSomeとNoneとの関係性も分かりやすい。
+
+
+
 
