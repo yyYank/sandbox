@@ -45,5 +45,18 @@ match式であれこれするのね。よく見るやつだ。
 こうやってみるとSomeとNoneとの関係性も分かりやすい。
 
 
+## Optionの実体から使えるメソッド
+
+    scala> a.
+    asInstanceOf   flatMap     isDefined      orNull            toRight      
+    canEqual       flatten     isEmpty        productArity      toString     
+    collect        fold        isInstanceOf   productElement    withFilter   
+    contains       forall      iterator       productIterator                
+    exists         foreach     map            productPrefix                  
+    filter         get         nonEmpty       toLeft                         
+    filterNot      getOrElse   orElse         toList    
+    
+なるほどなるほど。
+
 
 
