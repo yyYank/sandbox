@@ -32,7 +32,9 @@ http://www.scala-lang.org/api/current/index.html#scala.util.Either
      }
      
 
-    
+
+さて    
+
     A common use of Either is as an alternative to scala.Option for dealing with possible missing values.
     
     
