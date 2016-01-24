@@ -30,9 +30,11 @@ http://www.scala-lang.org/api/current/index.html#scala.util.Either
          case e: Exception =>
            Left(in)
      }
+     
 
-
+    
     A common use of Either is as an alternative to scala.Option for dealing with possible missing values.
+    
     
 Option型のようにmissing valueを扱う時にEitherは使われると。たぶん。
 
