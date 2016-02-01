@@ -99,7 +99,7 @@ http://sorm-framework.org/
 
 ## scala-activerecord
 
-などと言っていたら本当にActive Recoredと名のつくものが出てきた。
+などと言っていたらActive Recoredと名のつくものが出てきた。
 
 https://github.com/aselab/scala-activerecord
 
