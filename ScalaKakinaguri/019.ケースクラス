@@ -1,0 +1,41 @@
+
+
+
+case class。
+
+
+    case class クラス名(引数…) {}
+
+
+である。
+
+
+
+## なんか書いてみよう
+
+    scala> case class CaseClassSample(){
+         | }
+    defined class CaseClassSample
+    
+    scala> new CaseClassSample()
+    res0: CaseClassSample = CaseClassSample()
+    
+    scala> res0
+    res1: CaseClassSample = CaseClassSample()
+    
+    scala> res0.
+    asInstanceOf   copy           productArity     productIterator   toString   
+    canEqual       isInstanceOf   productElement   productPrefix                
+    
+    scala> val a = CaseClassSample
+    a: CaseClassSample.type = CaseClassSample
+    
+    scala> val b = CaseClassSample()
+    b: CaseClassSample = CaseClassSample()
+    
+    
+    
+## ん？
+
+
+aとbの違いはなんなんだろう。
