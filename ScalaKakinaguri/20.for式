@@ -1,0 +1,31 @@
+
+
+## for式というのがある
+
+便利と噂では聞く。
+
+やはり、ひしだまさんのサイトはわかりやすい。
+http://www.ne.jp/asahi/hishidama/home/tech/scala/collection/for.html
+
+Javaのfor文のようなものではなく、実際にはListのmapやfilterに置き換えられる、ということらしい。
+
+
+## コード
+
+こういう感じか。
+
+
+
+    scala> for( i <- 1 to 10) {
+         | println(i)
+         | }
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
