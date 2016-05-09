@@ -13,6 +13,12 @@ KotlinはJavaのフレームワークやライブラリを利用出来ること�
 例）
 インジェクションの際に変数がfinalであってはならない。  
 クラスがfinalであってはならない、など。
+
+```Kotlin
+@Component
+open class Hoge @Autowired (val injectedValue:String) {
+}
+```
   
 
 ## スローガン
