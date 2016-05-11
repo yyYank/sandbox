@@ -45,5 +45,7 @@ Javaのフレームワークを利用出来るcompatibilityはJetBrainsに任せ
 * JSON Parser
 * View Template
 * Testing
+* Logging
+
 
 
