@@ -46,7 +46,7 @@ Javaのフレームワークを利用出来るcompatibilityはJetBrainsに任せ
 * View Template
 * Testing
 * Logging
-
+* Frontend Support
 
 ## ポータビリティーとか考える
 
@@ -54,6 +54,4 @@ Javaのフレームワークを利用出来るcompatibilityはJetBrainsに任せ
 
 * 組み込みサーバーに対応していること
 * もちろんjarやwarへのパーケージングも可能なこと
-* 実行可能jarであること
-
-
+* 実行可能jar/warであること
