@@ -26,3 +26,5 @@ Viewの部分はフレームワークでレンダリングまでうまくやっ�
 
 ルーティングとModelとの連携、サービスとの連携。
 put get post deleteを受け付ける。
+  
+RESTfulな処理にも対応したい。JAX-RSやSpringのRestCotrollerのような。
