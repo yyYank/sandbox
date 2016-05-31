@@ -1,0 +1,11 @@
+
+# dockerをmacで使ってみる
+
+docker for mac とやらがあるので使う(まだベータっぽい)。
+
+* Docker Hubのアカウントが必要なようなのでアカウントを作成。
+* Dockerのdmgファイルをダウンロード
+* インストール
+
+[Docker Hub](https://hub.docker.com/)
+[インストール先](https://beta.docker.com/docs/)
