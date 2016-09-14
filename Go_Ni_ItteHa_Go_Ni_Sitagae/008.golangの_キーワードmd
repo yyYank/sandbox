@@ -1,0 +1,6 @@
+
+
+golangにおいて_は無視する変数っぽい。
+blank identifier
+
+http://stackoverflow.com/questions/27764421/what-is-in-a-golang-declaration
