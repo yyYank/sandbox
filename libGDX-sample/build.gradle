@@ -6,8 +6,6 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'de.richsource.gradle.plugins:gwt-gradle-plugin:0.6'
-        classpath 'com.mobidevelop.robovm:robovm-gradle-plugin:2.1.0'
     }
 }
 
@@ -17,9 +15,9 @@ allprojects {
 
     version = '1.0'
     ext {
-        appName = "libgdx-sample"
-        gdxVersion = '1.9.3'
-        roboVMVersion = '2.1.0'
+        appName = "my-gdx-game"
+        gdxVersion = '1.9.5'
+        roboVMVersion = '2.3.0'
         box2DLightsVersion = '1.4'
         ashleyVersion = '1.7.0'
         aiVersion = '1.8.0'
@@ -45,7 +43,6 @@ project(":desktop") {
     }
 }
 
-
 project(":core") {
     apply plugin: "java"
 
@@ -58,9 +55,4 @@ project(":core") {
 
 tasks.eclipse.doLast {
     delete ".project"
-}
-repositories {
-    mavenCentral()
-}
-dependencies {
 }
