@@ -1,3 +1,5 @@
+package v_m8
+
 fun runs(a: IntArray): Int {
   return a.answer({(i: Int): Boolean -> i + 1 < a.size && a.get(i) != a.get(i + 1) })
 }
